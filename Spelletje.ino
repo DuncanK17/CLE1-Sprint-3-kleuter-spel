@@ -12,7 +12,6 @@ versie 1.1
 
 
 
-
 pseudocode zonder timer
 // als een van de knoppen wordt ingedrukt start de game
 // de ledstrip geeft een kleur R G of B
@@ -33,6 +32,21 @@ pseudocode zonder timer
 // begint opnieuw
 // bij score 16 gaat ledje regenboog branden en reset het spel
 */
+
+// Duncan Edit, het daadwerkelijke idee
+
+// elk team heeft een eigen knop en lcd scherm
+// als een van de teams hun knop indrukt
+// geeft de pixelring Rood Groen of Blauw
+// timer gaat lopen
+// kind zoekt object met kleur
+// kind zet object op plaatje die knop indrukt waar rgb scanner ook onder zit
+// doordat knop ingedrukt wordt gaat rgb scanner kleuren scannen
+// als de kleur goed is dan stopt de timer
+// team krijgt punten
+// andere team drukt op hun knop
+
+
 
 
 
